@@ -8,7 +8,7 @@ public class AnimalPicker{
 
         while (!validSelection){
 
-            System.out.println("Would you like to see a Dog, Cat, or a Fish? (Type '1' for Dog, '2' for Cat, '3' for Fish)");
+            System.out.println("Would you like to see a Dog, Cat, Fish, or Bat? (Type '1' for Dog, '2' for Cat, '3' for Fish, '4' for Bat)");
             int animal = reader.nextInt();
 
             if(animal == 1){
@@ -21,6 +21,10 @@ public class AnimalPicker{
             }
             else if (animal == 3){
                 System.out.println("|\\   \\\\\\\\__     o\n| \\_/    o \\    o \n> _   (( <_  oo  \n| / \\__+___/      \n|/     |/");
+                validSelection = true;
+            }
+            else if (animal == 4){
+                System.out.println("    =/\\                 /\\=\n    / \\\'._   (\\_/)   _.\'/ \\\n   / .\'\'._\'--(o.o)--\'_.\'\'. \\\n  /.\' _/ |`\'=/ \" \\=\'`| \\_ `.\\\n /` .\' `\\;-,\'\\___/\',-;/` \'. \'\\\n/.-\'       `\\(-V-)/`       `-.\\\n`            \"   \"            `");
                 validSelection = true;
             }
             else {
