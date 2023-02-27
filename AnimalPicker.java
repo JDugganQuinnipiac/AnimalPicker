@@ -27,5 +27,6 @@ public class AnimalPicker{
                 System.out.println("ERROR: Invalid Selection, Please try again.");
             }
         }     
+        reader.close();
     }
 }
