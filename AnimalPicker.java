@@ -30,7 +30,7 @@ public class AnimalPicker{
             else {
                 System.out.println("ERROR: Invalid Selection, Please try again.");
             }
-        }     
-        reader.close();
+        }    
+        reader.close(); 
     }
 }
