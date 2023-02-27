@@ -15,5 +15,8 @@ public class AnimalPicker{
         else if (animal == 2){
             System.out.println("CAT ASCII ART HERE");
         }
+        else {
+            System.out.println("ERROR: Invalid Selection");
+        }
     }
 }
