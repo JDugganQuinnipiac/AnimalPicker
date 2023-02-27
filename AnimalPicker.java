@@ -12,11 +12,11 @@ public class AnimalPicker{
             int animal = reader.nextInt();
 
             if(animal == 1){
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("  ,_-~~~-,    _-~~-_\n /        ^-_/      \\_    _-~-.\n|      /\\  ,          `-_/     \\\n|   /~^\\ \'/  /~\\  /~\\   / \\_    \\\n \\_/    }/  /        \\  \\ ,_\\    }\n        Y  /  /~  /~  |  Y   \\   |\n       /   | {Q) {Q)  |  |    \\_/\n       |   \\  _===_  /   |\n       /  >--{     }--<  \\\n     /~       \\_._/       ~\\\n    /    *  *   Y    *      \\\n    |      * .: | :.*  *    |\n    \\    )--__==#==__--     /\n     \\_      \\  \\  \\      ,/\n       \'~_    | |  }   ,~\'\n          \\   {___/   /\n           \\   ~~~   /\n           /\\._._._./\\\n          {    ^^^    }\n           ~-_______-~\n            /       \\");
                 validSelection = true;
             }
             else if (animal == 2){
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println(" ,_     _\n |\\\\_,-~/\n / _  _ |    ,--.\n(  @  @ )   / ,-\'\n \\  _T_/-._( (\n /         `. \\\n|         _  \\ |\n \\ \\ ,  /      |\n  || |-_\\__   /\n ((_/`(____,-\'");
                 validSelection = true;
             }
             else {
